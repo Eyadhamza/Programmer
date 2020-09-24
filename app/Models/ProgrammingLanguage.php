@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Track extends Model
+class ProgrammingLanguage extends Model
 {
     protected $guarded=[];
     use HasFactory;
@@ -13,7 +13,7 @@ class Track extends Model
     protected static function booted()
     {
         static::created(function () {
-            (new Section)->makeSection(Track::find(1));
+            (new Section)->makeSection(ProgrammingLanguage::find(1));
         });
     }
 
@@ -21,5 +21,4 @@ class Track extends Model
     {
         return $this->morphMany(Resource::class,'resourceable');
     }
-
 }

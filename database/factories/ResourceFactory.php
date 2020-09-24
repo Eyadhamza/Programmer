@@ -2,17 +2,17 @@
 
 namespace Database\Factories;
 
-use App\Models\Track;
+use App\Models\Resource;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
-class TrackFactory extends Factory
+class ResourceFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.
      *
      * @var string
      */
-    protected $model = Track::class;
+    protected $model = Resource::class;
 
     /**
      * Define the model's default state.
@@ -21,11 +21,11 @@ class TrackFactory extends Factory
      */
     public function definition()
     {
+        $levels=['beginner','advanced','intermediate'];
         return [
-            'name'=>$this->faker->title,
-            'image'=>'https://randomuser.me/api/portraits/med/men/'.$this->faker->numberBetween(0,100).'.jpg',
-            'video_url'=>'url of video',
-            'description'=>'asdasdasd assdas dasd asd asd '
+            'description'=>$this->faker->paragraph,
+            'name'=>$this->faker->text,
+            'level'=>$levels[array_rand($levels)]
         ];
     }
 }

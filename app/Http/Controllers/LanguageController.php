@@ -2,18 +2,22 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Resources\LanguageCollection;
+use App\Http\Resources\LanguageResource;
 use App\Http\Resources\TrackCollection;
 use App\Http\Resources\TrackResource;
+use App\Models\ProgrammingLanguage;
 use App\Models\Track;
+use Carbon\Language;
 use Illuminate\Http\Request;
 
-class TrackController extends Controller
+class LanguageController extends Controller
 {
 
     public function index()
     {
-        $tracks=Track::with('resources')->get();
-        return new TrackCollection($tracks);
+        $languages=ProgrammingLanguage::with('resources')->get();
+        return new LanguageCollection($languages);
     }
 
     /**
@@ -40,8 +44,8 @@ class TrackController extends Controller
 
     public function show($id)
     {
-        $track=Track::with('resources')->findOrFail($id);
-        return new TrackResource($track);
+        $language=ProgrammingLanguage::with('resources')->findOrFail($id);
+        return new LanguageResource($language);
     }
 
     /**
