@@ -32,6 +32,5 @@ Route::get('/languages/{track}',[LanguageController::class,'show']);
 
 Route::get('/sections',function (){
     $sections=Section::all();
-   return SectionResource::collection($sections);
+    return SectionResource::collection($sections);
 });
-
