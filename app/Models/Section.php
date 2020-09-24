@@ -4,10 +4,17 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Orchid\Screen\AsSource;
 
 class Section extends Model
 {
-    protected $guarded=[];
+    use AsSource;
+
+    protected $fillable=[
+        'name',
+        'description',
+        'image'
+    ];
     use HasFactory;
 
     public function makeSection($model)

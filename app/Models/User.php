@@ -2,15 +2,10 @@
 
 namespace App\Models;
 
-use Illuminate\Contracts\Auth\MustVerifyEmail;
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Foundation\Auth\User as Authenticatable;
-use Illuminate\Notifications\Notifiable;
+use Orchid\Platform\Models\User as Authenticatable;
 
 class User extends Authenticatable
 {
-    use HasFactory, Notifiable;
-
     /**
      * The attributes that are mass assignable.
      *
@@ -20,16 +15,22 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'last_login',
+        'permissions',
     ];
 
     /**
-     * The attributes that should be hidden for arrays.
+     * The attributes excluded from the model's JSON form.
      *
      * @var array
      */
     protected $hidden = [
         'password',
         'remember_token',
+        'permissions',
+        'uses_two_factor_auth',
+        'two_factor_secret_code',
+        'two_factor_recovery_code',
     ];
 
     /**
@@ -38,6 +39,35 @@ class User extends Authenticatable
      * @var array
      */
     protected $casts = [
-        'email_verified_at' => 'datetime',
+        'permissions'          => 'array',
+        'email_verified_at'    => 'datetime',
+        'last_login'           => 'datetime',
+        'uses_two_factor_auth' => 'boolean',
+    ];
+
+    /**
+     * The attributes for which you can use filters in url.
+     *
+     * @var array
+     */
+    protected $allowedFilters = [
+        'id',
+        'name',
+        'email',
+        'permissions',
+    ];
+
+    /**
+     * The attributes for which can use sort in url.
+     *
+     * @var array
+     */
+    protected $allowedSorts = [
+        'id',
+        'name',
+        'email',
+        'last_login',
+        'updated_at',
+        'created_at',
     ];
 }
