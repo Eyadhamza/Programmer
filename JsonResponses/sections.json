@@ -1,0 +1,20 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "Track",
+            "image": "https://randomuser.me/api/portraits/med/men/11.jpg",
+            "description": "asdasdasd assdas dasd asd asd ",
+            "created_at": "2020-09-24T20:18:24.000000Z",
+            "updated_at": "2020-09-24T20:18:24.000000Z"
+        },
+        {
+            "id": 2,
+            "name": "ProgrammingLanguage",
+            "image": "https://randomuser.me/api/portraits/med/men/84.jpg",
+            "description": "asdasdasd assdas dasd asd asd ",
+            "created_at": "2020-09-24T20:18:25.000000Z",
+            "updated_at": "2020-09-24T20:18:25.000000Z"
+        }
+    ]
+}

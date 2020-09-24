@@ -1,0 +1,53 @@
+{
+    "data": {
+        "id": 1,
+        "name": "Prof.",
+        "description": "asdasdasd assdas dasd asd asd ",
+        "image": "https://randomuser.me/api/portraits/med/men/84.jpg",
+        "video_url": "url of video",
+        "created_at": "2020-09-24T20:18:25.000000Z",
+        "updated_at": "2020-09-24T20:18:25.000000Z",
+        "resources": [
+            {
+                "id": 41,
+                "resourceable_type": "App\\Models\\ProgrammingLanguage",
+                "resourceable_id": 1,
+                "description": "Unde quaerat aut molestiae laudantium. Quaerat nobis qui qui rerum ea. Totam corporis est laborum doloremque ratione et deleniti. Aut velit molestiae vero similique est. Velit pariatur illo magnam nostrum omnis.",
+                "name": "Dolor inventore cupiditate quis. Sed voluptatum dolores molestiae amet laboriosam sunt. Recusandae aut sapiente voluptatibus dolores.",
+                "level": "advanced",
+                "created_at": "2020-09-24T20:18:25.000000Z",
+                "updated_at": "2020-09-24T20:18:25.000000Z"
+            },
+            {
+                "id": 42,
+                "resourceable_type": "App\\Models\\ProgrammingLanguage",
+                "resourceable_id": 1,
+                "description": "Nisi quam consequatur quas quo est veritatis perferendis. Ut tempore et et tempora culpa ipsa. Nemo non totam dolorum harum qui rem. Fugit error placeat ipsa qui aut. Aut sit dignissimos impedit doloremque est.",
+                "name": "Porro aut exercitationem nihil officia molestias. Reiciendis atque dolore facere autem quis ipsum accusantium nemo. Est magni provident in ut est earum velit.",
+                "level": "beginner",
+                "created_at": "2020-09-24T20:18:25.000000Z",
+                "updated_at": "2020-09-24T20:18:25.000000Z"
+            },
+            {
+                "id": 43,
+                "resourceable_type": "App\\Models\\ProgrammingLanguage",
+                "resourceable_id": 1,
+                "description": "Asperiores qui ipsa autem. Dolorum cum ipsam omnis et. Accusantium non neque at dolorem aut eos suscipit odit. Qui enim temporibus sequi commodi aut accusantium sint.",
+                "name": "Aut sint consequatur libero reprehenderit sint. Sapiente at qui et.",
+                "level": "intermediate",
+                "created_at": "2020-09-24T20:18:25.000000Z",
+                "updated_at": "2020-09-24T20:18:25.000000Z"
+            },
+            {
+                "id": 44,
+                "resourceable_type": "App\\Models\\ProgrammingLanguage",
+                "resourceable_id": 1,
+                "description": "Harum occaecati quo voluptatem consectetur. Eos doloremque sit numquam magnam. Dolores possimus veritatis et. Ipsa atque pariatur natus commodi.",
+                "name": "Esse doloremque asperiores et et quia voluptas voluptas. Doloremque blanditiis incidunt voluptate. Assumenda architecto officiis rerum fugiat. Velit sunt saepe ea nihil adipisci.",
+                "level": "beginner",
+                "created_at": "2020-09-24T20:18:25.000000Z",
+                "updated_at": "2020-09-24T20:18:25.000000Z"
+            }
+        ]
+    }
+}

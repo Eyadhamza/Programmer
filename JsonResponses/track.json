@@ -1,0 +1,43 @@
+{
+    "data": {
+        "id": 1,
+        "name": "adasdas",
+        "description": "dasdasd",
+        "image": "http://localhost:8000/storage/2020/09/24/63bba7fab55af1b65eb7c1595b0c26e3a1ec2ed2.png",
+        "video_url": "https://www.youtube.com/watch?v=ySkm9Wuck4E",
+        "created_at": "2020-09-24T20:18:24.000000Z",
+        "updated_at": "2020-09-24T20:49:52.000000Z",
+        "resources": [
+            {
+                "id": 3,
+                "resourceable_type": "App\\Models\\Track",
+                "resourceable_id": 1,
+                "description": "Est possimus sunt sapiente quisquam. Rem quae similique esse et. Corrupti libero amet non porro cumque molestiae. Exercitationem veniam eos eligendi est qui et accusantium.",
+                "name": "Et quis voluptatibus vel mollitia. Itaque voluptas sed non quod excepturi. Ut exercitationem distinctio quod vel incidunt ratione ut.",
+                "level": "intermediate",
+                "created_at": "2020-09-24T20:18:24.000000Z",
+                "updated_at": "2020-09-24T20:18:24.000000Z"
+            },
+            {
+                "id": 82,
+                "resourceable_type": "App\\Models\\Track",
+                "resourceable_id": 1,
+                "description": "asd",
+                "name": "adasdasd",
+                "level": "advanced",
+                "created_at": "2020-09-24T22:24:21.000000Z",
+                "updated_at": "2020-09-24T22:24:21.000000Z"
+            },
+            {
+                "id": 83,
+                "resourceable_type": "App\\Models\\Track",
+                "resourceable_id": 1,
+                "description": "asdasd",
+                "name": "asdasd",
+                "level": "advanced",
+                "created_at": "2020-09-24T22:25:42.000000Z",
+                "updated_at": "2020-09-24T22:25:42.000000Z"
+            }
+        ]
+    }
+}

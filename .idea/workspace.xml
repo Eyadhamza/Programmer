@@ -26,84 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71f6cfcb-f6ae-42b9-80b4-5e9659e78fb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Orchid/Filters/RoleFilter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Orchid/Layouts/Examples/ChartBarExample.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Orchid/Layouts/Examples/ChartLineExample.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Orchid/Layouts/Examples/ChartPercentageExample.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Orchid/Layouts/Examples/ChartPieExample.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Orchid/Layouts/Examples/MetricsExample.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Orchid/Layouts/ResourceListLayout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Orchid/Layouts/Role/RoleEditLayout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Orchid/Layouts/Role/RoleListLayout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Orchid/Layouts/Role/RolePermissionLayout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Orchid/Layouts/SectionListLayout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Orchid/Layouts/TrackListLayout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Orchid/Layouts/User/UserEditLayout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Orchid/Layouts/User/UserFiltersLayout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Orchid/Layouts/User/UserListLayout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Orchid/Layouts/User/UserRoleLayout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Orchid/PlatformProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Orchid/Presenters/UserPresenter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Orchid/Screens/Examples/ExampleCardsScreen.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Orchid/Screens/Examples/ExampleChartsScreen.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Orchid/Screens/Examples/ExampleFieldsAdvancedScreen.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Orchid/Screens/Examples/ExampleFieldsScreen.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Orchid/Screens/Examples/ExampleLayoutsScreen.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Orchid/Screens/Examples/ExampleScreen.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Orchid/Screens/Examples/ExampleTextEditorsScreen.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Orchid/Screens/PlatformScreen.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Orchid/Screens/Resources/ResourceEditScreen.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Orchid/Screens/Resources/ResourceListScreen.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Orchid/Screens/Role/RoleEditScreen.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Orchid/Screens/Role/RoleListScreen.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Orchid/Screens/Section/SectionEditScreen.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Orchid/Screens/Section/SectionScreen.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Orchid/Screens/Tracks/TrackEditScreen.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Orchid/Screens/Tracks/TrackScreen.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Orchid/Screens/User/UserEditScreen.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Orchid/Screens/User/UserListScreen.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Orchid/Screens/User/UserProfileScreen.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/platform.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2015_04_12_000000_create_orchid_users_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2015_10_19_214424_create_orchid_roles_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2015_10_19_214425_create_orchid_role_users_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2016_08_07_125128_create_orchid_attachmentstable_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2017_09_17_125801_create_notifications_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_06_07_184338_added_columns_for_2fa.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/orchid/css/orchid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/orchid/favicon/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/orchid/favicon/android-chrome-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/orchid/favicon/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/orchid/favicon/browserconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/orchid/favicon/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/orchid/favicon/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/orchid/favicon/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/orchid/favicon/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/orchid/favicon/mstile-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/orchid/favicon/orchid-pinned-tab.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/orchid/favicon/safari-pinned-tab.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/orchid/img/logo-black.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/orchid/img/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/orchid/img/orchid-black.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/orchid/img/orchid-white.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/orchid/img/orchid.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/orchid/js/manifest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/orchid/js/manifest.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/orchid/js/orchid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/orchid/js/orchid.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/orchid/js/vendor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/orchid/js/vendor.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/orchid/mix-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/platform.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ProgrammerMap.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProgrammerMap.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Resource.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Resource.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Section.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Section.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Track.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Track.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsonResponses/tracks.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -285,7 +208,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600888053379</updated>
       <workItem from="1600888054422" duration="3605000" />
-      <workItem from="1600966514356" duration="17393000" />
+      <workItem from="1600966514356" duration="18277000" />
     </task>
     <task id="LOCAL؜٠٠٠٠١" summary="a way to implement resources">
       <created>1600966566148</created>
@@ -305,7 +228,13 @@
       <option name="presentableId" value="LOCAL؜٠٠٠٠٣" />
       <updated>1600973056133</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL؜٠٠٠٠٤" summary="added too many things actually , orchid is done , i can now add sections , tracks , resources to the tracks">
+      <created>1600986655225</created>
+      <option name="number" value="LOCAL؜٠٠٠٠٤" />
+      <option name="presentableId" value="LOCAL؜٠٠٠٠٤" />
+      <updated>1600986655225</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,7 +267,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="a way to implement resources" />
     <MESSAGE value="added language and added the api routes , added the Sections" />
-    <option name="LAST_COMMIT_MESSAGE" value="added language and added the api routes , added the Sections" />
+    <MESSAGE value="added too many things actually , orchid is done , i can now add sections , tracks , resources to the tracks" />
+    <option name="LAST_COMMIT_MESSAGE" value="added too many things actually , orchid is done , i can now add sections , tracks , resources to the tracks" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600980878069">
@@ -361,9 +291,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="216" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600936489814" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1600973061029">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1600986657688">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1600973061029" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1600986657688" />
   </component>
 </project>
