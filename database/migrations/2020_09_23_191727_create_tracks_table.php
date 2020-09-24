@@ -16,6 +16,7 @@ class CreateTracksTable extends Migration
         Schema::create('tracks', function (Blueprint $table) {
             $table->id();
             $table->string('name');
+            $table->longText('description');
             $table->string('image')->nullable();
             $table->string('video_url')->nullable();
             $table->timestamps();
