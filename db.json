@@ -1,0 +1,84 @@
+{
+"data": [
+{
+"id": 1,
+"name": "Miss",
+"image": "https://randomuser.me/api/portraits/med/men/14.jpg",
+"video_url": "url of video",
+"created_at": "2020-09-23T19:30:46.000000Z",
+"updated_at": "2020-09-23T19:30:46.000000Z"
+},
+{
+"id": 2,
+"name": "Miss",
+"image": "https://randomuser.me/api/portraits/med/men/38.jpg",
+"video_url": "url of video",
+"created_at": "2020-09-23T19:30:46.000000Z",
+"updated_at": "2020-09-23T19:30:46.000000Z"
+},
+{
+"id": 3,
+"name": "Prof.",
+"image": "https://randomuser.me/api/portraits/med/men/35.jpg",
+"video_url": "url of video",
+"created_at": "2020-09-23T19:30:46.000000Z",
+"updated_at": "2020-09-23T19:30:46.000000Z"
+},
+{
+"id": 4,
+"name": "Mr.",
+"image": "https://randomuser.me/api/portraits/med/men/70.jpg",
+"video_url": "url of video",
+"created_at": "2020-09-23T19:30:46.000000Z",
+"updated_at": "2020-09-23T19:30:46.000000Z"
+},
+{
+"id": 5,
+"name": "Mr.",
+"image": "https://randomuser.me/api/portraits/med/men/44.jpg",
+"video_url": "url of video",
+"created_at": "2020-09-23T19:30:46.000000Z",
+"updated_at": "2020-09-23T19:30:46.000000Z"
+},
+{
+"id": 6,
+"name": "Miss",
+"image": "https://randomuser.me/api/portraits/med/men/8.jpg",
+"video_url": "url of video",
+"created_at": "2020-09-23T19:30:46.000000Z",
+"updated_at": "2020-09-23T19:30:46.000000Z"
+},
+{
+"id": 7,
+"name": "Prof.",
+"image": "https://randomuser.me/api/portraits/med/men/33.jpg",
+"video_url": "url of video",
+"created_at": "2020-09-23T19:30:46.000000Z",
+"updated_at": "2020-09-23T19:30:46.000000Z"
+},
+{
+"id": 8,
+"name": "Ms.",
+"image": "https://randomuser.me/api/portraits/med/men/92.jpg",
+"video_url": "url of video",
+"created_at": "2020-09-23T19:30:46.000000Z",
+"updated_at": "2020-09-23T19:30:46.000000Z"
+},
+{
+"id": 9,
+"name": "Dr.",
+"image": "https://randomuser.me/api/portraits/med/men/4.jpg",
+"video_url": "url of video",
+"created_at": "2020-09-23T19:30:46.000000Z",
+"updated_at": "2020-09-23T19:30:46.000000Z"
+},
+{
+"id": 10,
+"name": "Mr.",
+"image": "https://randomuser.me/api/portraits/med/men/87.jpg",
+"video_url": "url of video",
+"created_at": "2020-09-23T19:30:46.000000Z",
+"updated_at": "2020-09-23T19:30:46.000000Z"
+}
+]
+}
