@@ -13,11 +13,13 @@ use App\Orchid\Screens\Examples\ExampleFieldsScreen;
 use App\Orchid\Screens\Examples\ExampleLayoutsScreen;
 use App\Orchid\Screens\Examples\ExampleScreen;
 use App\Orchid\Screens\Examples\ExampleTextEditorsScreen;
+use App\Orchid\Screens\LanguageResources\LanguageResourceEditScreen;
+use App\Orchid\Screens\LanguageResources\LanguageResourceListScreen;
 use App\Orchid\Screens\Languages\ProgrammingLanguageEditScreen;
 use App\Orchid\Screens\Languages\ProgrammingLanguageScreen;
 use App\Orchid\Screens\PlatformScreen;
-use App\Orchid\Screens\Resources\ResourceEditScreen;
-use App\Orchid\Screens\Resources\ResourceListScreen;
+use App\Orchid\Screens\TrackResources\TrackResourceEditScreen;
+use App\Orchid\Screens\TrackResources\TrackResourceListScreen;
 use App\Orchid\Screens\Role\RoleEditScreen;
 use App\Orchid\Screens\Role\RoleListScreen;
 use App\Orchid\Screens\Section\SectionEditScreen;
@@ -120,21 +122,18 @@ Route::screen('section/{section?}', SectionEditScreen::class)->name('platform.se
 
 Route::screen('tracks', TrackScreen::class)->name('platform.track');
 Route::screen('track/{track?}', TrackEditScreen::class)->name('platform.track.edit');
-Route::screen('track/{track}/resources', ResourceListScreen::class)->name('platform.track.resources.list');
-Route::screen('track/{track}/resource/{resource?}', ResourceEditScreen::class)->name('platform.track.resources.edit');
+Route::screen('track/{track}/resources', TrackResourceListScreen::class)->name('platform.track.resources.list');
+Route::screen('track/{track}/resource/{resource?}', TrackResourceEditScreen::class)->name('platform.track.resources.edit');
 
 
 Route::screen('languages', ProgrammingLanguageScreen::class)->name('platform.language');
 Route::screen('language/{language?}', ProgrammingLanguageEditScreen::class)->name('platform.language.edit');
-Route::screen('language/{language}/resources', ResourceListScreen::class)->name('platform.language.resources.list');
-Route::screen('language/{language}/resource/{resource?}', ResourceEditScreen::class)->name('platform.language.resources.edit');
+Route::screen('language/{language}/resources', LanguageResourceListScreen::class)->name('platform.language.resources.list');
+Route::screen('language/{language}/resource/{resource?}', LanguageResourceEditScreen::class)->name('platform.language.resources.edit');
 
 Route::screen('careers', CareerScreen::class)->name('platform.career');
 Route::screen('career/{career?}', CareerEditScreen::class)->name('platform.career.edit');
-Route::screen('career/{career}/resources', ResourceListScreen::class)->name('platform.career.resources.list');
-Route::screen('career/{career}/resource/{resource?}', ResourceEditScreen::class)->name('platform.career.resources.edit');
+
 
 Route::screen('blogs', BlogScreen::class)->name('platform.blog');
 Route::screen('blog/{blog?}', BlogEditScreen::class)->name('platform.blog.edit');
-Route::screen('blog/{blog}/resources', ResourceListScreen::class)->name('platform.blog.resources.list');
-Route::screen('blog/{blog}/resource/{resource?}', ResourceEditScreen::class)->name('platform.blog.resources.edit');

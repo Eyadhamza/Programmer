@@ -1,7 +1,8 @@
 <?php
 
-namespace App\Orchid\Screens\Resources;
+namespace App\Orchid\Screens\LanguageResources;
 
+use App\Models\ProgrammingLanguage;
 use App\Models\Resource;
 
 use App\Models\Track;
@@ -24,7 +25,7 @@ use Orchid\Support\Facades\Alert;
 use Orchid\Support\Facades\Layout;
 use Orchid\Support\Facades\Toast;
 
-class ResourceEditScreen extends Screen
+class LanguageResourceEditScreen extends Screen
 {
 
     public $name = 'Creating a new resource';
@@ -43,10 +44,11 @@ class ResourceEditScreen extends Screen
     /**
      * Query data.
      *
+     * @param ProgrammingLanguage $language
      * @param Resource $resource
      * @return array
      */
-    public function query(Track $track,Resource $resource): array
+    public function query(ProgrammingLanguage $language,Resource $resource): array
     {
         $this->exists=$resource->exists;
         if ($this->exists)
@@ -55,7 +57,7 @@ class ResourceEditScreen extends Screen
         }
         return [
             'resource'=>$resource,
-            'resources'=>$track->resources
+            'resources'=>$language->resources
         ];
     }
 
@@ -115,7 +117,7 @@ class ResourceEditScreen extends Screen
             ];
 
     }
-    public function createOrUpdate(Track $track,Resource $resource, Request $request)
+    public function createOrUpdate(ProgrammingLanguage $language,Resource $resource, Request $request)
     {
 
 
@@ -124,11 +126,11 @@ class ResourceEditScreen extends Screen
             'resource.description'=>'required',
             'resource.level'=>'nullable'
         ]);
-       $track->resources()->updateOrCreate($request->get('resource'))->save();
+        $language->resources()->updateOrCreate($request->get('resource'))->save();
 
         Alert::info('You have successfully created an resource.');
 
-        return redirect()->route('platform.track.resources.list',[$track]);
+        return redirect()->route('platform.language.resources.list',[$language]);
     }
 
     /**

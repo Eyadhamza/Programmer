@@ -1,7 +1,8 @@
 <?php
 
-namespace App\Orchid\Screens\Resources;
+namespace App\Orchid\Screens\LanguageResources;
 
+use App\Models\ProgrammingLanguage;
 use App\Models\Resource;
 
 
@@ -26,7 +27,7 @@ use Orchid\Support\Facades\Alert;
 use Orchid\Support\Facades\Layout;
 use Orchid\Support\Facades\Toast;
 
-class ResourceListScreen extends Screen
+class LanguageResourceListScreen extends Screen
 {
 
     public $name = 'All resources';
@@ -46,14 +47,14 @@ class ResourceListScreen extends Screen
     /**
      * Query data.
      *
-     * @param Resource $resource
+     * @param ProgrammingLanguage $language
      * @return array
      */
-    public function query(Track $track): array
+    public function query(ProgrammingLanguage $language): array
     {
 
         return [
-            'resources'=>$track->resources()->paginate(),
+            'resources'=>$language->resources()->paginate(),
 
         ];
     }
@@ -84,9 +85,9 @@ class ResourceListScreen extends Screen
         ];
 
     }
-    public function addResource(Track $track)
+    public function addResource(ProgrammingLanguage $language)
     {
-        return redirect()->route('platform.track.resources.edit',[$track]);
+        return redirect()->route('platform.language.resources.edit',[$language]);
     }
 
 
