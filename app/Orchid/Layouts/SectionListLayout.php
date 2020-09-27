@@ -36,6 +36,7 @@ class SectionListLayout extends Table
 
             TD::set('description', 'Section description')
                 ->sort()
+                ->align('center')
                 ->render(function ($section) {
                     return Link::make($section->description)
                         ->route('platform.section.edit', $section);

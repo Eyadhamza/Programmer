@@ -27,14 +27,14 @@ class ProgrammingLanguageScreen extends Screen
      *
      * @var string
      */
-    public $name = 'ProgrammingLanguage screen';
+    public $name = 'Programming Languages';
 
     /**
      * Display header description.
      *
      * @var string
      */
-    public $description = 'Sample language screen';
+    public $description = 'Here you can add info about programming languages';
 
     /**
      * Query data.
@@ -58,7 +58,7 @@ class ProgrammingLanguageScreen extends Screen
         return [
 
 
-            Link::make('Create ProgrammingLanguage')
+            Link::make('Add Language')
                 ->route('platform.language.edit')
         ];
     }

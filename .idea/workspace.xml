@@ -26,13 +26,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71f6cfcb-f6ae-42b9-80b4-5e9659e78fb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Orchid/Layouts/MainPageLayout.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Orchid/Screens/PlatformScreen.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Orchid/Screens/PlatformScreen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Orchid/Layouts/SectionListLayout.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Orchid/Layouts/SectionListLayout.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Orchid/Screens/Section/SectionEditScreen.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Orchid/Screens/Section/SectionEditScreen.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Orchid/Screens/Section/SectionScreen.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Orchid/Screens/Section/SectionScreen.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Orchid/Screens/Tracks/TrackEditScreen.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Orchid/Screens/Tracks/TrackEditScreen.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,7 +218,7 @@
       <workItem from="1601040784677" duration="663000" />
       <workItem from="1601043383329" duration="184000" />
       <workItem from="1601164787159" duration="5187000" />
-      <workItem from="1601214773702" duration="9038000" />
+      <workItem from="1601214773702" duration="9770000" />
     </task>
     <task id="LOCAL؜٠٠٠٠١" summary="a way to implement resources">
       <created>1600966566148</created>
@@ -283,7 +280,13 @@
       <option name="presentableId" value="LOCAL؜٠٠٠١٠" />
       <updated>1601217938032</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL؜٠٠٠١١" summary="modefied section">
+      <created>1601224659448</created>
+      <option name="number" value="LOCAL؜٠٠٠١١" />
+      <option name="presentableId" value="LOCAL؜٠٠٠١١" />
+      <updated>1601224659448</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,7 +327,8 @@
     <MESSAGE value="added language resources" />
     <MESSAGE value="added api routes" />
     <MESSAGE value="added links in menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="added links in menu" />
+    <MESSAGE value="modefied section" />
+    <option name="LAST_COMMIT_MESSAGE" value="modefied section" />
   </component>
   <component name="WindowStateProjectService">
     <state x="572" y="81" key="#com.intellij.ide.util.MemberChooser" timestamp="1601221091182">

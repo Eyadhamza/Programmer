@@ -66,7 +66,7 @@ class TrackEditScreen extends Screen
     public function commandBar(): array
     {
         return [
-            Button::make('Create Track')
+            Button::make('Add new Track')
                 ->icon('icon-pencil')
                 ->method('createOrUpdate')
                 ->canSee(!$this->exists),
@@ -98,17 +98,22 @@ class TrackEditScreen extends Screen
         return [
             Layout::rows([
                 Input::make('track.name')
-                    ->title('Title')
+                    ->title('Write the Track name')
+                    ->required()
                     ->placeholder('Attractive but mysterious title')
                     ->help('Specify a short descriptive title for this post.'),
 
                 TextArea::make('track.description')
-                    ->title('Description')
-                    ->rows(3)
+                    ->title('Write your Track Description')
+                    ->required()
+                    ->rows(6)
                     ->maxlength(200)
                     ->placeholder('Brief description for preview'),
 
-                Input::make('track.video_url')->type('url')->title('Add video Url'),
+                Input::make('track.video_url')
+                    ->type('url')
+                    ->title('Add video Url')
+                    ->placeholder('http://google.com'),
 //
                 Cropper::make('track.image')
                     ->width(500)

@@ -26,14 +26,14 @@ use Orchid\Support\Facades\Toast;
 class ProgrammingLanguageEditScreen extends Screen
 {
 
-    public $name = 'Creating a new ProgrammingLanguage';
+    public $name = 'Add a new Programming Language';
 
     /**
      * Display header description.
      *
      * @var string
      */
-    public $description = 'Creating a new ProgrammingLanguage';
+    public $description = 'Here ypu can add the details of Programming Languages';
     /**
      * @var bool
      */
@@ -50,7 +50,7 @@ class ProgrammingLanguageEditScreen extends Screen
         $this->exists=$language->exists;
         if ($this->exists)
         {
-            $this->name='Edit ProgrammingLanguage';
+            $this->name='Edit Language Details';
         }
         return [
             'language'=>$language,
@@ -66,7 +66,7 @@ class ProgrammingLanguageEditScreen extends Screen
     public function commandBar(): array
     {
         return [
-            Button::make('Create ProgrammingLanguage')
+            Button::make('Add Language')
                 ->icon('icon-pencil')
                 ->method('createOrUpdate')
                 ->canSee(!$this->exists),
@@ -98,17 +98,20 @@ class ProgrammingLanguageEditScreen extends Screen
         return [
             Layout::rows([
                 Input::make('language.name')
-                    ->title('Title')
+                    ->title('Language Name')
                     ->placeholder('Attractive but mysterious title')
                     ->help('Specify a short descriptive title for this post.'),
 
                 TextArea::make('language.description')
-                    ->title('Description')
-                    ->rows(3)
+                    ->title('Language Body')
+                    ->rows(5)
                     ->maxlength(200)
                     ->placeholder('Brief description for preview'),
 
-                Input::make('language.video_url')->type('url')->title('Add video Url'),
+                Input::make('language.video_url')
+                    ->type('url')
+                    ->placeholder('http://eyad.com')
+                    ->title('Add video Url'),
 //
                 Cropper::make('language.image')
                     ->width(500)
