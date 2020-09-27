@@ -2,6 +2,10 @@
 
 declare(strict_types=1);
 
+use App\Orchid\Screens\Blog\BlogEditScreen;
+use App\Orchid\Screens\Blog\BlogScreen;
+use App\Orchid\Screens\Career\CareerEditScreen;
+use App\Orchid\Screens\Career\CareerScreen;
 use App\Orchid\Screens\Examples\ExampleCardsScreen;
 use App\Orchid\Screens\Examples\ExampleChartsScreen;
 use App\Orchid\Screens\Examples\ExampleFieldsAdvancedScreen;
@@ -125,4 +129,12 @@ Route::screen('language/{language?}', ProgrammingLanguageEditScreen::class)->nam
 Route::screen('language/{language}/resources', ResourceListScreen::class)->name('platform.language.resources.list');
 Route::screen('language/{language}/resource/{resource?}', ResourceEditScreen::class)->name('platform.language.resources.edit');
 
+Route::screen('careers', CareerScreen::class)->name('platform.career');
+Route::screen('career/{career?}', CareerEditScreen::class)->name('platform.career.edit');
+Route::screen('career/{career}/resources', ResourceListScreen::class)->name('platform.career.resources.list');
+Route::screen('career/{career}/resource/{resource?}', ResourceEditScreen::class)->name('platform.career.resources.edit');
 
+Route::screen('blogs', BlogScreen::class)->name('platform.blog');
+Route::screen('blog/{blog?}', BlogEditScreen::class)->name('platform.blog.edit');
+Route::screen('blog/{blog}/resources', ResourceListScreen::class)->name('platform.blog.resources.list');
+Route::screen('blog/{blog}/resource/{resource?}', ResourceEditScreen::class)->name('platform.blog.resources.edit');

@@ -34,3 +34,4 @@ Route::get('/sections',function (){
     $sections=Section::all();
     return SectionResource::collection($sections);
 });
+

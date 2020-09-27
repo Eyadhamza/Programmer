@@ -26,9 +26,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71f6cfcb-f6ae-42b9-80b4-5e9659e78fb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Orchid/Screens/Languages/ProgrammingLanguageEditScreen.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Orchid/Screens/Languages/ProgrammingLanguageScreen.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/ProgrammingLanguage.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/ProgrammingLanguage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/BlogController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CareerController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Blog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Career.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Orchid/Layouts/BlogListLayout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Orchid/Layouts/CareerListLayout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Orchid/Screens/Blog/BlogEditScreen.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Orchid/Screens/Blog/BlogScreen.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Orchid/Screens/Career/CareerEditScreen.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Orchid/Screens/Career/CareerScreen.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/BlogFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/CareerFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_27_010729_create_blogs_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_27_010952_create_careers_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Orchid/PlatformProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Orchid/PlatformProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Orchid/Screens/Tracks/TrackScreen.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Orchid/Screens/Tracks/TrackScreen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/platform.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/platform.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,7 +200,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Orchid/Screens" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Orchid/Layouts" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -192,9 +208,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Eyadh\ProgrammerMap\app\Orchid\Layouts" />
       <recent name="C:\Users\Eyadh\ProgrammerMap\app\Orchid\Screens" />
+      <recent name="C:\Users\Eyadh\ProgrammerMap\database\factories" />
       <recent name="C:\Users\Eyadh\ProgrammerMap\app\Orchid\Screens\Resources" />
       <recent name="C:\Users\Eyadh\ProgrammerMap\app\Orchid\Screens\Tracks" />
-      <recent name="C:\Users\Eyadh\ProgrammerMap\app\Orchid\Screens\Section" />
     </key>
   </component>
   <component name="RunManager">
@@ -215,7 +231,7 @@
       <workItem from="1600966514356" duration="18570000" />
       <workItem from="1601040784677" duration="663000" />
       <workItem from="1601043383329" duration="184000" />
-      <workItem from="1601164787159" duration="817000" />
+      <workItem from="1601164787159" duration="5187000" />
     </task>
     <task id="LOCAL؜٠٠٠٠١" summary="a way to implement resources">
       <created>1600966566148</created>
@@ -253,7 +269,13 @@
       <option name="presentableId" value="LOCAL؜٠٠٠٠٦" />
       <updated>1601165400511</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL؜٠٠٠٠٧" summary="added programming languages">
+      <created>1601165760944</created>
+      <option name="number" value="LOCAL؜٠٠٠٠٧" />
+      <option name="presentableId" value="LOCAL؜٠٠٠٠٧" />
+      <updated>1601165760944</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,7 +312,8 @@
     <MESSAGE value="added too many things actually , orchid is done , i can now add sections , tracks , resources to the tracks" />
     <MESSAGE value="added json responses" />
     <MESSAGE value="added validation" />
-    <option name="LAST_COMMIT_MESSAGE" value="added validation" />
+    <MESSAGE value="added programming languages" />
+    <option name="LAST_COMMIT_MESSAGE" value="added programming languages" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600980878069">
@@ -317,9 +340,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="216" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600936489814" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1600987418536">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1601165763135">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1600987418536" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601165763135" />
   </component>
 </project>

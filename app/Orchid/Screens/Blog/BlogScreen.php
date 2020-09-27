@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Orchid\Screens\Tracks;
+namespace App\Orchid\Screens\Blog;
 
-use App\Models\Track;
+use App\Models\Blog;
+use App\Orchid\Layouts\BlogListLayout;
 use App\Orchid\Layouts\Examples\ChartBarExample;
 use App\Orchid\Layouts\Examples\MetricsExample;
 use App\Orchid\Layouts\ProgrammingLanguageListLayout;
 use App\Orchid\Layouts\CareerListLayout;
-use App\Orchid\Layouts\TrackListLayout;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 use Orchid\Screen\Actions\Button;
@@ -21,7 +21,7 @@ use Orchid\Screen\TD;
 use Orchid\Support\Facades\Layout;
 use Orchid\Support\Facades\Toast;
 
-class TrackScreen extends Screen
+class BlogScreen extends Screen
 {
 
     /**
@@ -29,14 +29,14 @@ class TrackScreen extends Screen
      *
      * @var string
      */
-    public $name = 'Track screen';
+    public $name = 'Blog screen';
 
     /**
      * Display header description.
      *
      * @var string
      */
-    public $description = 'Sample track screen';
+    public $description = 'Sample blog screen';
 
     /**
      * Query data.
@@ -46,7 +46,7 @@ class TrackScreen extends Screen
     public function query(): array
     {
         return [
-            'tracks'=>Track::paginate()
+            'blogs'=>Blog::paginate()
         ];
     }
 
@@ -60,8 +60,8 @@ class TrackScreen extends Screen
         return [
 
 
-            Link::make('Create Track')
-                ->route('platform.track.edit')
+            Link::make('Create Blog')
+                ->route('platform.blog.edit')
         ];
     }
 
@@ -73,7 +73,7 @@ class TrackScreen extends Screen
     public function layout(): array
     {
         return [
-            TrackListLayout::class
+            BlogListLayout::class
         ];
 
     }
