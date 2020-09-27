@@ -27,10 +27,21 @@ class PlatformProvider extends OrchidServiceProvider
     {
         return [
 
+            ItemMenu::label('Sections')
+                ->icon('layers')
+                ->title('Navigation')
+                ->slug('sections')
+                ->childs(),
+            ItemMenu::label('Sections list')
+                ->route('platform.section')
+                ->place('sections'),
+            ItemMenu::label('Add Section')
+                ->route('platform.section.edit')
+                ->place('sections'),
+
             ItemMenu::label('Tracks')
                 ->icon('monitor')
                 ->route('platform.track')
-                ->title('Navigation')
                 ->slug('tracks')
                 ->childs(),
             ItemMenu::label('Tracks list')
@@ -55,47 +66,30 @@ class PlatformProvider extends OrchidServiceProvider
                 ->route('platform.language.edit')
                 ->place('languages'),
 
+            ItemMenu::label('Career Development')
+                ->icon('dollar')
+                ->slug('career-development')
+                ->childs(),
+            ItemMenu::label('List Career Tips')
+                ->route('platform.career')
+                ->icon('careers')
+                ->place('career-development'),
+            ItemMenu::label('Add Career Tip')
+                ->route('platform.career.edit')
+                ->icon('careers')
+                ->place('career-development'),
 
-//
-//
-//            ItemMenu::label('Sub element item 1')
-//                ->place('example-menu')
-//                ->icon('bag'),
-//
-//            ItemMenu::label('Sub element item 2')
-//                ->place('example-menu')
-//                ->icon('heart'),
-//
-//            ItemMenu::label('Basic Elements')
-//                ->title('Form controls')
-//                ->icon('note')
-//                ->route('platform.example.fields'),
-//
-//            ItemMenu::label('Advanced Elements')
-//                ->icon('briefcase')
-//                ->route('platform.example.advanced'),
-//
-//            ItemMenu::label('Text Editors')
-//                ->icon('list')
-//                ->route('platform.example.editors'),
-//
-//            ItemMenu::label('Overview layouts')
-//                ->title('Layouts')
-//                ->icon('layers')
-//                ->route('platform.example.layouts'),
-//
-//            ItemMenu::label('Chart tools')
-//                ->icon('bar-chart')
-//                ->route('platform.example.charts'),
-//
-//            ItemMenu::label('Cards')
-//                ->icon('grid')
-//                ->route('platform.example.cards'),
-//
-//            ItemMenu::label('Documentation')
-//                ->title('Docs')
-//                ->icon('docs')
-//                ->url('https://orchid.software/en/docs'),
+            ItemMenu::label('Blog Management')
+                ->icon('book-open')
+                ->slug('blog-management')
+                ->childs(),
+            ItemMenu::label('Manage Blog')
+                ->route('platform.blog')
+                ->place('blog-management'),
+            ItemMenu::label('Add New Article')
+                ->route('platform.blog.edit')
+                ->place('blog-management'),
+
         ];
     }
 
