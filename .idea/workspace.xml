@@ -26,10 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71f6cfcb-f6ae-42b9-80b4-5e9659e78fb0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Orchid/Layouts/SectionListLayout.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Orchid/Layouts/SectionListLayout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Orchid/Screens/Section/SectionEditScreen.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Orchid/Screens/Section/SectionEditScreen.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Orchid/Screens/Tracks/TrackEditScreen.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Orchid/Screens/Tracks/TrackEditScreen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Orchid/Screens/Blog/BlogEditScreen.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Orchid/Screens/Blog/BlogEditScreen.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +215,7 @@
       <workItem from="1601040784677" duration="663000" />
       <workItem from="1601043383329" duration="184000" />
       <workItem from="1601164787159" duration="5187000" />
-      <workItem from="1601214773702" duration="9770000" />
+      <workItem from="1601214773702" duration="10251000" />
     </task>
     <task id="LOCAL؜٠٠٠٠١" summary="a way to implement resources">
       <created>1600966566148</created>
@@ -286,7 +283,13 @@
       <option name="presentableId" value="LOCAL؜٠٠٠١١" />
       <updated>1601224659448</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL؜٠٠٠١٢" summary="modefied tracks and languages design">
+      <created>1601225712179</created>
+      <option name="number" value="LOCAL؜٠٠٠١٢" />
+      <option name="presentableId" value="LOCAL؜٠٠٠١٢" />
+      <updated>1601225712179</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,7 +331,8 @@
     <MESSAGE value="added api routes" />
     <MESSAGE value="added links in menu" />
     <MESSAGE value="modefied section" />
-    <option name="LAST_COMMIT_MESSAGE" value="modefied section" />
+    <MESSAGE value="modefied tracks and languages design" />
+    <option name="LAST_COMMIT_MESSAGE" value="modefied tracks and languages design" />
   </component>
   <component name="WindowStateProjectService">
     <state x="572" y="81" key="#com.intellij.ide.util.MemberChooser" timestamp="1601221091182">
@@ -367,10 +371,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="541" y="119" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1601221066982" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1601217941869">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1601225713420">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601217941869" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601225713420" />
     <state x="479" y="129" width="577" height="566" key="find.popup" timestamp="1601218398980">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

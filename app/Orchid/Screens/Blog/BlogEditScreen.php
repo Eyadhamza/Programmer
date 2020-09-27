@@ -26,14 +26,14 @@ use Orchid\Support\Facades\Toast;
 class BlogEditScreen extends Screen
 {
 
-    public $name = 'Creating a new Blog';
+    public $name = 'Add a new Article';
 
     /**
      * Display header description.
      *
      * @var string
      */
-    public $description = 'Creating a new Blog';
+    public $description = 'Here you can modify the blog and add articles';
     /**
      * @var bool
      */
@@ -66,7 +66,7 @@ class BlogEditScreen extends Screen
     public function commandBar(): array
     {
         return [
-            Button::make('Create Blog')
+            Button::make('Add Article')
                 ->icon('icon-pencil')
                 ->method('createOrUpdate')
                 ->canSee(!$this->exists),
@@ -80,10 +80,7 @@ class BlogEditScreen extends Screen
                 ->icon('icon-trash')
                 ->method('remove')
                 ->canSee($this->exists),
-            Button::make('Access Resources')
-                ->icon('icon-trash')
-                ->method('accessResource')
-                ->canSee($this->exists),
+
 
         ];
     }
@@ -98,20 +95,24 @@ class BlogEditScreen extends Screen
         return [
             Layout::rows([
                 Input::make('blog.title')
-                    ->title('Title')
+                    ->title('Article title')
                     ->placeholder('Attractive but mysterious title')
                     ->help('Specify a short descriptive title for this post.'),
 
                 TextArea::make('blog.body')
-                    ->title('Body')
+                    ->title('Article Body')
                     ->rows(3)
                     ->maxlength(200)
                     ->placeholder('Brief description for preview'),
 
-                Input::make('blog.address_url')->type('url')->title('Add video Url'),
+                Input::make('blog.address_url')
+                    ->type('url')
+                    ->placeholder('http://morshedy.com')
+                    ->title('Add Article Url'),
 //
                 Cropper::make('blog.image')
                     ->width(500)
+                    ->title('Add an Image to your Article')
                     ->height(300),
 
 

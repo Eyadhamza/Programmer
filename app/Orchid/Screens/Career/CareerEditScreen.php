@@ -26,14 +26,14 @@ use Orchid\Support\Facades\Toast;
 class CareerEditScreen extends Screen
 {
 
-    public $name = 'Creating a new Career';
+    public $name = 'Add a new Career tip';
 
     /**
      * Display header description.
      *
      * @var string
      */
-    public $description = 'Creating a new Career';
+    public $description = 'Here you can modify the career section of your app and add new tips';
     /**
      * @var bool
      */
@@ -80,10 +80,6 @@ class CareerEditScreen extends Screen
                 ->icon('icon-trash')
                 ->method('remove')
                 ->canSee($this->exists),
-            Button::make('Access Resources')
-                ->icon('icon-trash')
-                ->method('accessResource')
-                ->canSee($this->exists),
 
         ];
     }
@@ -98,17 +94,22 @@ class CareerEditScreen extends Screen
         return [
             Layout::rows([
                 Input::make('career.title')
-                    ->title('Title')
+                    ->title('Subject Title')
+                    ->required()
                     ->placeholder('Attractive but mysterious title')
                     ->help('Specify a short descriptive title for this post.'),
 
                 TextArea::make('career.body')
-                    ->title('Description')
-                    ->rows(3)
+                    ->title('Subject Description')
+                    ->rows(5)
+                    ->required()
                     ->maxlength(200)
                     ->placeholder('Brief description for preview'),
 
-                Input::make('career.url')->type('url')->title('Add video Url'),
+                Input::make('career.url')
+                    ->type('url')
+                    ->placeholder('http://facebook.com')
+                    ->title('Add Url related to article'),
 //
                 Cropper::make('career.image')
                     ->width(500)
