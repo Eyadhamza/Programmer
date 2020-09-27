@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\BlogController;
+use App\Http\Controllers\CareerController;
 use App\Http\Controllers\LanguageController;
 use App\Http\Controllers\TrackController;
 use App\Http\Resources\SectionResource;
@@ -27,7 +29,7 @@ Route::get('/tracks/{track}',[TrackController::class,'show']);
 
 
 Route::get('/languages',[LanguageController::class,'index']);
-Route::get('/languages/{track}',[LanguageController::class,'show']);
+Route::get('/languages/{programminglanguage}',[LanguageController::class,'show']);
 
 
 Route::get('/sections',function (){
@@ -35,3 +37,8 @@ Route::get('/sections',function (){
     return SectionResource::collection($sections);
 });
 
+Route::get('/careers',[CareerController::class,'index']);
+Route::get('/careers/{career}',[CareerController::class,'show']);
+
+Route::get('/blogs',[BlogController::class,'index']);
+Route::get('/blogs/{blog}',[BlogController::class,'show']);

@@ -17,12 +17,6 @@ class Track extends Model
 
     use HasFactory , AsSource;
 
-    protected static function booted()
-    {
-        static::created(function () {
-            (new Section)->makeSection(Track::find(1));
-        });
-    }
 
     public function resources()
     {

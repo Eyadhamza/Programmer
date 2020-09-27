@@ -16,12 +16,7 @@ class ProgrammingLanguage extends Model
     ];
     use HasFactory,AsSource;
 
-    protected static function booted()
-    {
-        static::created(function () {
-            (new Section)->makeSection(ProgrammingLanguage::find(1));
-        });
-    }
+
 
     public function resources()
     {
