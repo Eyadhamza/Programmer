@@ -26,7 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71f6cfcb-f6ae-42b9-80b4-5e9659e78fb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JsonResponses/tracks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Orchid/Screens/Resources/ResourceEditScreen.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Orchid/Screens/Resources/ResourceEditScreen.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +182,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Orchid/Layouts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -208,7 +209,10 @@
       <option name="presentableId" value="Default" />
       <updated>1600888053379</updated>
       <workItem from="1600888054422" duration="3605000" />
-      <workItem from="1600966514356" duration="18277000" />
+      <workItem from="1600966514356" duration="18570000" />
+      <workItem from="1601040784677" duration="663000" />
+      <workItem from="1601043383329" duration="184000" />
+      <workItem from="1601164787159" duration="307000" />
     </task>
     <task id="LOCAL؜٠٠٠٠١" summary="a way to implement resources">
       <created>1600966566148</created>
@@ -234,7 +238,13 @@
       <option name="presentableId" value="LOCAL؜٠٠٠٠٤" />
       <updated>1600986655225</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL؜٠٠٠٠٥" summary="added json responses">
+      <created>1600987417208</created>
+      <option name="number" value="LOCAL؜٠٠٠٠٥" />
+      <option name="presentableId" value="LOCAL؜٠٠٠٠٥" />
+      <updated>1600987417208</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,19 +272,25 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="a way to implement resources" />
     <MESSAGE value="added language and added the api routes , added the Sections" />
     <MESSAGE value="added too many things actually , orchid is done , i can now add sections , tracks , resources to the tracks" />
-    <option name="LAST_COMMIT_MESSAGE" value="added too many things actually , orchid is done , i can now add sections , tracks , resources to the tracks" />
+    <MESSAGE value="added json responses" />
+    <option name="LAST_COMMIT_MESSAGE" value="added json responses" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600980878069">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1600980878069" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1601043453559">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601043453559" />
     <state width="1493" height="216" key="GridCell.Tab.0.bottom" timestamp="1600936489814">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -291,9 +307,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="216" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600936489814" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1600986657688">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1600987418536">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1600986657688" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1600987418536" />
   </component>
 </project>

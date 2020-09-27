@@ -110,6 +110,11 @@ class SectionEditScreen extends Screen
     }
     public function createOrUpdate(Section $section, Request $request)
     {
+        $request->validate([
+            'section.name'=>'required',
+            'section.description'=>'required',
+            'section.image'=>'nullable'
+        ]);
         $section->fill($request->get('section'))->save();
 
         Alert::info('You have successfully created an section.');

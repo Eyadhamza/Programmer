@@ -118,11 +118,17 @@ class ResourceEditScreen extends Screen
     public function createOrUpdate(Track $track,Resource $resource, Request $request)
     {
 
-       $track->resources()->create($request->get('resource'))->save();
+
+        $request->validate([
+            'resource.name'=>'required',
+            'resource.description'=>'required',
+            'resource.level'=>'nullable'
+        ]);
+       $track->resources()->updateOrCreate($request->get('resource'))->save();
 
         Alert::info('You have successfully created an resource.');
 
-        return redirect()->route('platform.track.resources.list',[$track,$resource->resourceable]);
+        return redirect()->route('platform.track.resources.list',[$track]);
     }
 
     /**

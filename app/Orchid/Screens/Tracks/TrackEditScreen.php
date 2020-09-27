@@ -121,10 +121,15 @@ class TrackEditScreen extends Screen
     }
     public function createOrUpdate(Track $track, Request $request)
     {
-
+        $request->validate([
+            'track.name'=>'required',
+            'track.description'=>'required',
+            'track.url'=>'nullable',
+            'track.image'=>'nullable'
+        ]);
         $track->fill($request->get('track'))->save();
 
-        Alert::info('You have successfully created an track.');
+        Alert::info('You have successfully updated a track.');
 
         return redirect()->route('platform.track');
     }
