@@ -23,14 +23,14 @@ use Orchid\Support\Facades\Toast;
 class SectionEditScreen extends Screen
 {
 
-    public $name = 'Creating a new Section';
+    public $name = 'Add a new Section';
 
     /**
      * Display header description.
      *
      * @var string
      */
-    public $description = 'Creating a new Section';
+    public $description = 'Here is where you can add a new Section';
     /**
      * @var bool
      */
@@ -62,7 +62,7 @@ class SectionEditScreen extends Screen
     public function commandBar(): array
     {
         return [
-            Button::make('Create Section')
+            Button::make('Add Section')
                 ->icon('icon-pencil')
                 ->method('createOrUpdate')
                 ->canSee(!$this->exists),
@@ -90,19 +90,20 @@ class SectionEditScreen extends Screen
         return [
             Layout::rows([
                 Input::make('section.name')
-                    ->title('Title')
-                    ->placeholder('Attractive but mysterious title')
+                    ->title('Section Name :')
+                    ->placeholder('My greatest Section')
                     ->help('Specify a short descriptive title for this post.'),
 
                 TextArea::make('section.description')
-                    ->title('Description')
+                    ->title('Section Description :')
                     ->rows(3)
                     ->maxlength(200)
                     ->placeholder('Brief description for preview'),
-                Cropper::make('section.image')
-                    ->width(500)
-                    ->height(300),
 
+                Cropper::make('section.image')
+                    ->title('Add an image to your section :')
+                    ->width(500)
+                    ->height(500),
 
             ])
             ];

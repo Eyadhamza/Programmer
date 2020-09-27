@@ -6,6 +6,7 @@ use App\Models\Section;
 use App\Orchid\Layouts\Examples\ChartBarExample;
 use App\Orchid\Layouts\Examples\MetricsExample;
 use App\Orchid\Layouts\ProgrammingLanguageListLayout;
+use App\Orchid\Layouts\SectionListLayout;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 use Orchid\Screen\Actions\Button;
@@ -71,7 +72,7 @@ class SectionScreen extends Screen
     public function layout(): array
     {
         return [
-            ProgrammingLanguageListLayout::class
+            SectionListLayout::class
         ];
 
     }
