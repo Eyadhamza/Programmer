@@ -9,6 +9,8 @@ use App\Orchid\Screens\Examples\ExampleFieldsScreen;
 use App\Orchid\Screens\Examples\ExampleLayoutsScreen;
 use App\Orchid\Screens\Examples\ExampleScreen;
 use App\Orchid\Screens\Examples\ExampleTextEditorsScreen;
+use App\Orchid\Screens\Languages\ProgrammingLanguageEditScreen;
+use App\Orchid\Screens\Languages\ProgrammingLanguageScreen;
 use App\Orchid\Screens\PlatformScreen;
 use App\Orchid\Screens\Resources\ResourceEditScreen;
 use App\Orchid\Screens\Resources\ResourceListScreen;
@@ -117,5 +119,10 @@ Route::screen('track/{track?}', TrackEditScreen::class)->name('platform.track.ed
 Route::screen('track/{track}/resources', ResourceListScreen::class)->name('platform.track.resources.list');
 Route::screen('track/{track}/resource/{resource?}', ResourceEditScreen::class)->name('platform.track.resources.edit');
 
+
+Route::screen('languages', ProgrammingLanguageScreen::class)->name('platform.language');
+Route::screen('language/{language?}', ProgrammingLanguageEditScreen::class)->name('platform.language.edit');
+Route::screen('language/{language}/resources', ResourceListScreen::class)->name('platform.language.resources.list');
+Route::screen('language/{language}/resource/{resource?}', ResourceEditScreen::class)->name('platform.language.resources.edit');
 
 
