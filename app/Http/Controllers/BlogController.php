@@ -13,8 +13,8 @@ class BlogController extends Controller
     {
         return BlogResource::collection(Blog::all());
     }
-    public function show(Blog $career)
+    public function show(Blog $blog)
     {
-        return new BlogResource($career);
+        return new BlogResource($blog);
     }
 }
