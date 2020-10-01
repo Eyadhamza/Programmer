@@ -18,7 +18,7 @@ class CreateResourcesTable extends Migration
             $table->morphs('resourceable');
             $table->text('description');
             $table->string('name');
-            $table->enum('level',['beginner','intermediate','advanced']);
+            $table->string('resource_url');
             $table->timestamps();
         });
     }

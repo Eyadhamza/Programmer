@@ -106,8 +106,11 @@ class TrackResourceEditScreen extends Screen
                     ->rows(3)
                     ->placeholder('Brief description for preview'),
 
-                Input::make('resource.level')->type('text')->title('What level ?'),
-//
+                Input::make('resource.resource_url')
+                    ->type('url')
+                    ->title('Add The resource Url'),
+
+
 
 
             ])
@@ -121,7 +124,7 @@ class TrackResourceEditScreen extends Screen
         $request->validate([
             'resource.name'=>'required',
             'resource.description'=>'required',
-            'resource.level'=>'nullable'
+            'resource.resource_url'=>'required'
         ]);
        $track->resources()->updateOrCreate($request->get('resource'))->save();
 

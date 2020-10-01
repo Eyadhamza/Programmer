@@ -108,8 +108,10 @@ class LanguageResourceEditScreen extends Screen
                     ->rows(3)
                     ->placeholder('Brief description for preview'),
 
-                Input::make('resource.level')->type('text')->title('What level ?'),
-//
+                Input::make('resource.resource_url')
+                    ->type('url')
+                    ->title('Add The resource Url'),
+
 
 
             ])
@@ -123,7 +125,7 @@ class LanguageResourceEditScreen extends Screen
         $request->validate([
             'resource.name'=>'required',
             'resource.description'=>'required',
-            'resource.level'=>'nullable'
+            'resource.resource_url'=>'required'
         ]);
         $language->resources()->updateOrCreate($request->get('resource'))->save();
 
@@ -133,19 +135,20 @@ class LanguageResourceEditScreen extends Screen
     }
 
     /**
+     * @param ProgrammingLanguage $language
      * @param Resource $resource
      *
      * @return \Illuminate\Http\RedirectResponse
      * @throws \Exception
      */
-    public function remove(Track $track,Resource $resource)
+    public function remove(ProgrammingLanguage $language,Resource $resource)
     {
         $resource->delete()
             ? Alert::info('You have successfully deleted the resource.')
             : Alert::warning('An error has occurred')
         ;
 
-        return redirect()->route('platform.track.resources.list',[$track]);
+        return redirect()->route('platform.language.resources.list',[$language]);
     }
 
 }

@@ -11,7 +11,7 @@ class Resource extends Model
     protected $fillable=[
         'name',
         'description',
-        'level',
+        'resource_url',
         'resourceable'
     ];
     use HasFactory,AsSource;

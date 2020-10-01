@@ -26,15 +26,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71f6cfcb-f6ae-42b9-80b4-5e9659e78fb0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Orchid/Layouts/LanguageResourceListLayout.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Orchid/Screens/Blog/BlogEditScreen.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Orchid/Screens/Blog/BlogEditScreen.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Orchid/Screens/Career/CareerEditScreen.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Orchid/Screens/Career/CareerEditScreen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Resource.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Resource.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Orchid/Screens/LanguageResources/LanguageResourceEditScreen.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Orchid/Screens/LanguageResources/LanguageResourceEditScreen.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Orchid/Screens/Languages/ProgrammingLanguageEditScreen.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Orchid/Screens/Languages/ProgrammingLanguageEditScreen.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Orchid/Screens/Section/SectionEditScreen.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Orchid/Screens/Section/SectionEditScreen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Orchid/Screens/LanguageResources/LanguageResourceListScreen.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Orchid/Screens/LanguageResources/LanguageResourceListScreen.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Orchid/Screens/TrackResources/TrackResourceEditScreen.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Orchid/Screens/TrackResources/TrackResourceEditScreen.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Orchid/Screens/Tracks/TrackEditScreen.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Orchid/Screens/Tracks/TrackEditScreen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Orchid/Screens/TrackResources/TrackResourceListScreen.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Orchid/Screens/TrackResources/TrackResourceListScreen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_24_165648_create_resources_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_24_165648_create_resources_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,6 +176,7 @@
       <path value="$PROJECT_DIR$/vendor/orchid/icons" />
       <path value="$PROJECT_DIR$/vendor/myclabs/php-enum" />
       <path value="$PROJECT_DIR$/vendor/bacon/bacon-qr-code" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
     </include_path>
   </component>
   <component name="ProjectId" id="1hvOMcdZCt9P8gpGiO1HJlJ0Mhg" />
@@ -190,7 +191,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Orchid/Layouts" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="vue.rearranger.settings.migration" value="true" />

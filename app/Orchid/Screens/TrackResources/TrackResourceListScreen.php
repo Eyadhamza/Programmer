@@ -8,6 +8,7 @@ use App\Models\Resource;
 use App\Models\Track;
 use App\Orchid\Layouts\Examples\ChartBarExample;
 use App\Orchid\Layouts\Examples\MetricsExample;
+use App\Orchid\Layouts\LanguageResourceListLayout;
 use App\Orchid\Layouts\ResourceListLayout;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;

@@ -9,7 +9,7 @@ use App\Models\Resource;
 use App\Models\Track;
 use App\Orchid\Layouts\Examples\ChartBarExample;
 use App\Orchid\Layouts\Examples\MetricsExample;
-use App\Orchid\Layouts\ResourceListLayout;
+use App\Orchid\Layouts\LanguageResourceListLayout;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 use Orchid\Screen\Actions\Button;
@@ -81,7 +81,7 @@ class LanguageResourceListScreen extends Screen
     public function layout(): array
     {
         return [
-            ResourceListLayout::class
+            LanguageResourceListLayout::class
         ];
 
     }
