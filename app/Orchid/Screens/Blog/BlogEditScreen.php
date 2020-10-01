@@ -102,7 +102,6 @@ class BlogEditScreen extends Screen
                 TextArea::make('blog.body')
                     ->title('Article Body')
                     ->rows(3)
-                    ->maxlength(200)
                     ->placeholder('Brief description for preview'),
 
                 Input::make('blog.address_url')

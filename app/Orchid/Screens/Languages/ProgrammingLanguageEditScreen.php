@@ -105,7 +105,6 @@ class ProgrammingLanguageEditScreen extends Screen
                 TextArea::make('language.description')
                     ->title('Language Body')
                     ->rows(5)
-                    ->maxlength(200)
                     ->placeholder('Brief description for preview'),
 
                 Input::make('language.video_url')

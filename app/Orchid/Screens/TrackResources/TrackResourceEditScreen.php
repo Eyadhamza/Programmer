@@ -104,7 +104,6 @@ class TrackResourceEditScreen extends Screen
                 TextArea::make('resource.description')
                     ->title('Description')
                     ->rows(3)
-                    ->maxlength(200)
                     ->placeholder('Brief description for preview'),
 
                 Input::make('resource.level')->type('text')->title('What level ?'),

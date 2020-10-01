@@ -20,31 +20,21 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:orchid" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71f6cfcb-f6ae-42b9-80b4-5e9659e78fb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ConfirmPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Orchid/Screens/Blog/BlogEditScreen.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Orchid/Screens/Blog/BlogEditScreen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Orchid/Screens/Career/CareerEditScreen.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Orchid/Screens/Career/CareerEditScreen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Orchid/Screens/LanguageResources/LanguageResourceEditScreen.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Orchid/Screens/LanguageResources/LanguageResourceEditScreen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Orchid/Screens/Languages/ProgrammingLanguageEditScreen.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Orchid/Screens/Languages/ProgrammingLanguageEditScreen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Orchid/Screens/Section/SectionEditScreen.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Orchid/Screens/Section/SectionEditScreen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Orchid/Screens/TrackResources/TrackResourceEditScreen.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Orchid/Screens/TrackResources/TrackResourceEditScreen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Orchid/Screens/Tracks/TrackEditScreen.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Orchid/Screens/Tracks/TrackEditScreen.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,6 +226,8 @@
       <workItem from="1601214773702" duration="13281000" />
       <workItem from="1601253181126" duration="1521000" />
       <workItem from="1601326675241" duration="2223000" />
+      <workItem from="1601398768108" duration="1921000" />
+      <workItem from="1601566492439" duration="627000" />
     </task>
     <task id="LOCAL؜٠٠٠٠١" summary="a way to implement resources">
       <created>1600966566148</created>
@@ -315,7 +307,19 @@
       <option name="presentableId" value="LOCAL؜٠٠٠١٣" />
       <updated>1601226050462</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL؜٠٠٠١٤" summary="release 0.1 master branch">
+      <created>1601390517028</created>
+      <option name="number" value="LOCAL؜٠٠٠١٤" />
+      <option name="presentableId" value="LOCAL؜٠٠٠١٤" />
+      <updated>1601390517028</updated>
+    </task>
+    <task id="LOCAL؜٠٠٠١٥" summary="quick fix">
+      <created>1601398897093</created>
+      <option name="number" value="LOCAL؜٠٠٠١٥" />
+      <option name="presentableId" value="LOCAL؜٠٠٠١٥" />
+      <updated>1601398897093</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,7 +336,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="orchid" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -359,7 +363,9 @@
     <MESSAGE value="modefied section" />
     <MESSAGE value="modefied tracks and languages design" />
     <MESSAGE value="modefied blog and career" />
-    <option name="LAST_COMMIT_MESSAGE" value="modefied blog and career" />
+    <MESSAGE value="release 0.1 master branch" />
+    <MESSAGE value="quick fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="quick fix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="572" y="81" key="#com.intellij.ide.util.MemberChooser" timestamp="1601221091182">
@@ -398,13 +404,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="541" y="119" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1601221066982" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1601226051780">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1601398899055">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601226051780" />
-    <state x="479" y="129" width="577" height="566" key="find.popup" timestamp="1601218398980">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601398899055" />
+    <state x="479" y="129" width="577" height="566" key="find.popup" timestamp="1601567005144">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="479" y="129" width="577" height="566" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1601218398980" />
+    <state x="479" y="129" width="577" height="566" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1601567005144" />
   </component>
 </project>

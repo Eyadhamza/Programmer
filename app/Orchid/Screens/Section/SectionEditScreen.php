@@ -97,7 +97,6 @@ class SectionEditScreen extends Screen
                 TextArea::make('section.description')
                     ->title('Section Description :')
                     ->rows(5)
-                    ->maxlength(200)
                     ->placeholder('Brief description for preview'),
 
                 Cropper::make('section.image')

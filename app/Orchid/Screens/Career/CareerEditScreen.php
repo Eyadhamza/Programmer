@@ -103,7 +103,6 @@ class CareerEditScreen extends Screen
                     ->title('Subject Description')
                     ->rows(5)
                     ->required()
-                    ->maxlength(200)
                     ->placeholder('Brief description for preview'),
 
                 Input::make('career.url')

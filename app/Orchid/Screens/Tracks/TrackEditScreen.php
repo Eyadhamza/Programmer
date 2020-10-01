@@ -107,7 +107,6 @@ class TrackEditScreen extends Screen
                     ->title('Write your Track Description')
                     ->required()
                     ->rows(6)
-                    ->maxlength(200)
                     ->placeholder('Brief description for preview'),
 
                 Input::make('track.video_url')
