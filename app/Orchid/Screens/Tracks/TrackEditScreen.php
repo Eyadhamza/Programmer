@@ -14,6 +14,7 @@ use Orchid\Screen\Actions\Link;
 use Orchid\Screen\Actions\ModalToggle;
 use Orchid\Screen\Fields\Cropper;
 use Orchid\Screen\Fields\Input;
+use Orchid\Screen\Fields\Picture;
 use Orchid\Screen\Fields\Relation;
 use Orchid\Screen\Fields\TextArea;
 use Orchid\Screen\Repository;
@@ -114,9 +115,8 @@ class TrackEditScreen extends Screen
                     ->title('Add video Url')
                     ->placeholder('http://google.com'),
 //
-                Cropper::make('track.image')
-                    ->width(500)
-                    ->height(300),
+                Picture::make('track.image')
+                    ->title('add image')
 
 
             ])

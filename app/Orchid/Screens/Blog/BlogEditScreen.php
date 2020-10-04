@@ -14,6 +14,7 @@ use Orchid\Screen\Actions\Link;
 use Orchid\Screen\Actions\ModalToggle;
 use Orchid\Screen\Fields\Cropper;
 use Orchid\Screen\Fields\Input;
+use Orchid\Screen\Fields\Picture;
 use Orchid\Screen\Fields\Relation;
 use Orchid\Screen\Fields\TextArea;
 use Orchid\Screen\Repository;
@@ -109,10 +110,9 @@ class BlogEditScreen extends Screen
                     ->placeholder('http://morshedy.com')
                     ->title('Add Article Url'),
 //
-                Cropper::make('blog.image')
-                    ->width(500)
+                Picture::make('blog.image')
                     ->title('Add an Image to your Article')
-                    ->height(300),
+
 
 
             ])

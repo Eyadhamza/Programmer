@@ -12,6 +12,7 @@ use Orchid\Screen\Actions\DropDown;
 use Orchid\Screen\Actions\ModalToggle;
 use Orchid\Screen\Fields\Cropper;
 use Orchid\Screen\Fields\Input;
+use Orchid\Screen\Fields\Picture;
 use Orchid\Screen\Fields\TextArea;
 use Orchid\Screen\Repository;
 use Orchid\Screen\Screen;
@@ -99,10 +100,9 @@ class SectionEditScreen extends Screen
                     ->rows(5)
                     ->placeholder('Brief description for preview'),
 
-                Cropper::make('section.image')
+                Picture::make('section.image')
                     ->title('Add an image to your section :')
-                    ->width(500)
-                    ->height(500),
+
 
             ])
             ];

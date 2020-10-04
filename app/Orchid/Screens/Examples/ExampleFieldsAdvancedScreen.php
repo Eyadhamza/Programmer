@@ -206,7 +206,7 @@ class ExampleFieldsAdvancedScreen extends Screen
                     ->title('Picture')
                     ->horizontal(),
 
-                Cropper::make('cropper')
+                Picture::make('cropper')
                     ->title('Cropper')
                     ->width(500)
                     ->height(300)

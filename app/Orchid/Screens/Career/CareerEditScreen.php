@@ -14,6 +14,7 @@ use Orchid\Screen\Actions\Link;
 use Orchid\Screen\Actions\ModalToggle;
 use Orchid\Screen\Fields\Cropper;
 use Orchid\Screen\Fields\Input;
+use Orchid\Screen\Fields\Picture;
 use Orchid\Screen\Fields\Relation;
 use Orchid\Screen\Fields\TextArea;
 use Orchid\Screen\Repository;
@@ -110,9 +111,8 @@ class CareerEditScreen extends Screen
                     ->placeholder('http://facebook.com')
                     ->title('Add Url related to article'),
 //
-                Cropper::make('career.image')
-                    ->width(500)
-                    ->height(300),
+                Picture::make('career.image')
+                    ->title('add the career')
 
 
             ])
